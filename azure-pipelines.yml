@@ -23,7 +23,7 @@ jobs:
     displayName: Application security testing
     inputs:
       projectName: RP-00001
-      CheckmarxService: SAST 9.7
+      CheckmarxService: SAST 9.5  with MNO
       fullTeamName: CxServer
       enableSastScan: true
       fullScansScheduled: false
