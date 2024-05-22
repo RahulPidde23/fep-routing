@@ -22,7 +22,7 @@ jobs:
   - task: Application security testing@2024
     displayName: Application security testing
     inputs:
-      projectName: RP-001
+      projectName: RP-00001
       CheckmarxService: SAST 9.7
       fullTeamName: CxServer
       enableSastScan: true
